@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+menu {
+    background-color: rgb(5, 5, 5);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.menu-itens {
+    color: #ecfd04;
+    /*Define a cor do texto*/
+    text-decoration: none;
+    /*Retira o traço de link da palavra*/
+    padding: 10px 20px;
+    font-size: 18px;
+    /*Define o tamanho do texto*/
+    display: inline-block;
+    /*Deixa o item como o bloco em uma linha*/
+}
+
+.menu-itens:hover {
+    /*É um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento*/
+    background-color: #d3dd4d;
+    color: #0d0d0e;
+    width: 220px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    /*Arredondar as bordas de um 
+    elemento*/
+}
+
+table {
+    border: 1px solid;
+    /*Cria uma borde de 1px de altura e dashed é a borda do tipo pontilhada*/
+    border-color: #d9d4e6;
+    /*Aplica uma à borda*/
+}
+
+thead {
+    /*Estilização do cabeçalho- 1Linha da tabela*/
+    background-color: rgb(150, 160, 59);
+    color: #535335;
+    /*Cor do texto*/
+    height: 15px;
+    /*Altura da 1Linha*/
+}
+
+th {
+    /*Estiliza cada célula do cabeçalho*/
+    width: 2000px;
+    /*largura da célula*/
+    text-align: center;
+    /*Alinhamento horizontal do texto*/
+    align-items: center;
+    /*alinhamento vertical do texto*/
+    border: #d0dbf8 solid;
+    /*cor da bora*/
+}
+
+tbody {
+    /*Estiliza o corpo da tabela - todas as linhas excetp a primeira*/
+    background-color: #5f5f4c;
+    /*cor de fundo*/
+}
+
+td {
+    /*Estiliza cada célula do corpo da tabela*/
+    text-align: center;
+    /*Alinhamento horizontal do texto*/
+    border: rgb(49, 49, 12) solid;
+    /*Cria uma borda com cor*/
+}
+
+h5 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+footer {
+    background-color: rgb(92, 94, 84);
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}

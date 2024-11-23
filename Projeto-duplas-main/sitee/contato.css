@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+menu {
+    background-color: rgb(5, 5, 5);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.menu-itens {
+    color: #ecfd04;
+    /*Define a cor do texto*/
+    text-decoration: none;
+    /*Retira o traço de link da palavra*/
+    padding: 10px 20px;
+    font-size: 18px;
+    /*Define o tamanho do texto*/
+    display: inline-block;
+    /*Deixa o item como o bloco em uma linha*/
+}
+
+.menu-itens:hover {
+    /*É um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento*/
+    background-color: #d3dd4d;
+    color: #0d0d0e;
+    width: 220px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    /*Arredondar as bordas de um 
+    elemento*/
+}
+
+.representantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 50%;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+section {
+    /*Estilizando a fonte do texto que está dentro da section*/
+    font-family: Arial, Helvetica, sans-serif;
+}
