@@ -52,7 +52,7 @@ table {
 thead {
     /*Estilização do cabeçalho- 1Linha da tabela*/
     background-color: rgb(150, 160, 59);
-    color: #535335;
+    color: #1b1b02;
     /*Cor do texto*/
     height: 15px;
     /*Altura da 1Linha*/
@@ -66,13 +66,13 @@ th {
     /*Alinhamento horizontal do texto*/
     align-items: center;
     /*alinhamento vertical do texto*/
-    border: #d0dbf8 solid;
+    border: #000000 solid;
     /*cor da bora*/
 }
 
 tbody {
     /*Estiliza o corpo da tabela - todas as linhas excetp a primeira*/
-    background-color: #5f5f4c;
+    background-color: #b6b67f;
     /*cor de fundo*/
 }
 
