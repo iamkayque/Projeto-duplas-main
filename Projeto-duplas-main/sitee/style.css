@@ -19,6 +19,15 @@ menu {
     width: 100%;
 }
 
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0 4px 6px rgb(168, 204, 7);
+
+}
+
 .menu-itens {
     color: #ecfd04;
     /*Define a cor do texto*/
